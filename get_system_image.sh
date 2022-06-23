@@ -14,7 +14,7 @@
 
 
 remote_system_image_name=system_image_$(sed 's/\r//g;s/\./_/g' VERSION).bin
-local_system_image_name=system.img
+local_system_image_name=system_image_$(sed 's/\r//g;s/\./_/g' VERSION).bin
 
 set -e
 rm -f ${local_system_image_name}
