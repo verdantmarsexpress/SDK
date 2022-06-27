@@ -29,7 +29,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: SDK-Tracker
-        path: examples/tracker/tracker_raw.bin
+        path: examples/tracker/raw.bin
         retention-days: 365
     - name: Archive SDK artifacts SDK-TX-Test
       uses: actions/upload-artifact@v2
@@ -53,11 +53,11 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: SDK-LEUART
-        path: examples/leuart/leuart_raw.bin
+        path: examples/leuart/raw.bin
         retention-days: 365
     - name: Archive SDK artifacts AT_Modem
       uses: actions/upload-artifact@v2
       with:
         name: SDK-AT_Modem
-        path: examples/at_modem/at_modem_raw.bin
+        path: examples/at_modem/raw.bin
         retention-days: 365
