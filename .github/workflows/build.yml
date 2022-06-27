@@ -53,11 +53,11 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: SDK-LEUART
-        path: examples/leuart/raw.bin
+        path: examples/leuart/raw_binary/leuart_raw.bin
         retention-days: 365
     - name: Archive SDK artifacts AT_Modem
       uses: actions/upload-artifact@v2
       with:
         name: SDK-AT_Modem
-        path: examples/at_modem/raw.bin
+        path: examples/at_modem/raw_binary/at_modem_raw.bin
         retention-days: 365
